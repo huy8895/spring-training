@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tu-tao-validator" />
+        <module name="reful-api-document-spring-swagger" />
+        <module name="demoTwoBean" />
+        <module name="spring-training" />
+        <module name="test-value-from-properties.yml" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demoTwoBean" options="-parameters" />
+      <module name="reful-api-document-spring-swagger" options="-parameters" />
+      <module name="test-value-from-properties.yml" options="-parameters" />
+      <module name="tu-tao-validator" options="-parameters" />
+    </option>
+  </component>
+</project>
